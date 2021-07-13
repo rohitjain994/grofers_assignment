@@ -101,3 +101,10 @@ output
 ```
 qwerty
 ```
+## Docker Build
+```
+
+docker build -t flask-restapi .
+docker run -d -p 5000:5000 --name python-restapi flask-restapi
+
+```
